@@ -1,14 +1,6 @@
-spring:
-  application:
-    name: orderservice
-  config:
-    import: optional:configserver:http://localhost:8888
-eureka:
-  client:
-    service-url:
-      defaultZone: http://localhost:8761/eureka
-management:
-  endpoints:
-    web:
-      exposure:
-        include: "*"
+server:
+  port: 8081
+app:
+  message: Order Service Config
+inventory:
+  url: http://inventoryservice:8082/inventory
