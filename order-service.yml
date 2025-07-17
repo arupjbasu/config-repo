@@ -3,4 +3,4 @@ server:
 app:
   message: Order Service Config
 inventory:
-  url: http://inventory-service:8082/inventory
+  url: http://inventoryservice:8082/inventory
