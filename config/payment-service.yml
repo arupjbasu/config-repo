@@ -1,0 +1,6 @@
+server:
+  port: 8085
+app:
+  message: Payment Service Config
+inventory:
+  url: http://inventory-service:8082/inventory
