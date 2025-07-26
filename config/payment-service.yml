@@ -2,5 +2,10 @@ server:
   port: 8085
 app:
   message: Payment Service Config
+  sqs: # Add this 'sqs' section
+    payment-response-queue-url: https://sqs.us-east-1.amazonaws.com/914454090844/payment-response-queue # Example, ensure this is correct
+    payment-notification-queue-url: https://sqs.us-east-1.amazonaws.com/914454090844/payment-notification-queue # Example, ensure this is correct
+    inventory-update-queue-url: https://sqs.us-east-1.amazonaws.com/914454090844/inventory-update-queue # Example, ensure this is correct
+    dead-letter-queue-url: https://sqs.us-east-1.amazonaws.com/914454090844/payment-dlq # Example, ensure this is correct
 inventory:
   url: http://inventory-service:8082/inventory
