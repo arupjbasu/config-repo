@@ -1,0 +1,4 @@
+server:
+  port: 8087
+app:
+  message: Inventory Micro Service No SQS Config
