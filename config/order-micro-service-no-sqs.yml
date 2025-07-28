@@ -3,4 +3,4 @@ server:
 app:
   message: Order Micro Service No SQS Config
 inventory:
-  url: http://inventory-service:8082/inventory
+  url: http://inventory-micro-service-no-sqs:8087/inventory
