@@ -1,0 +1,7 @@
+server:
+  port: 8089
+app:
+  message: Payment Micro Service Config no sqs
+  
+inventory:
+  url: http://inventory-micro-service-no-sqs:8087/inventory
