@@ -1,0 +1,6 @@
+server:
+  port: 8086
+app:
+  message: Order Micro Service No SQS Config
+inventory:
+  url: http://inventory-service:8082/inventory
