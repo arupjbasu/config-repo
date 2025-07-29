@@ -1,6 +1,9 @@
+# GitHub: config/order-micro-service-no-sqs.yml
 server:
   port: 8086
 app:
   message: Order Micro Service No SQS Config
 inventory:
   url: http://inventory-micro-service-no-sqs:8087/inventory
+payment: # <--- ADD THIS SECTION
+  url: http://payment-micro-service-no-sqs:8089/api/payment # Make sure this matches the actual Payment Service base URL
