@@ -4,6 +4,6 @@ server:
 app:
   message: Order Micro Service No SQS Config
 inventory:
-  url: http://inventory-micro-service-no-sqs:8087/inventory
+  url: http://inventory-micro-service-no-sqs:8087/api/inventory
 payment: # <--- ADD THIS SECTION
   url: http://payment-micro-service-no-sqs:8089/api/payments # Make sure this matches the actual Payment Service base URL
